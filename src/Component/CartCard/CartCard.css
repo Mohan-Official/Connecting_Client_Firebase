@@ -1,0 +1,149 @@
+#Per-Card-Row
+{
+    height: 12.5rem;
+    width: 80%;
+    /* background-color: black; */
+    margin: auto;
+    display: flex;
+}
+#product-cart
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+}
+#checkout-cart
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#order-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#socialmedia-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+}
+.prd-image-cart
+{
+    height: 100%;
+    width: 35%;
+}
+.prd-desc-cart
+{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.prd-image-cart img
+{
+    height: 100%;
+    width: 100%;
+}
+.prd-desc-cart h2,.prd-desc-cart h3
+{
+    text-align: start;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+.prd-desc-cart p
+{
+    text-align: justify;
+    padding: 1rem;
+}
+#checkOutBtn
+{
+    height: 3rem;
+    width: 12.5rem;
+    background-color: #242424;
+    color: whitesmoke;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.cart-icon
+{
+    margin-right: 1rem;
+}
+.counter-div
+{
+    height: 3rem;
+    width: 5rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.buttons-div
+{
+    height: 100%;
+    width: 35%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #242424; */
+}
+.buttons-div button
+{
+    height: 50%;
+    width: 100%;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid #242424;
+    /* border: none; */
+}
+.counter-div input
+{
+    height: 92.5%;
+    width: 65%;
+    outline: 0;
+    border: 1px solid #242424;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.social-icons
+{
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+    cursor: pointer;
+    margin-top: -15%;
+    /* background-color: #2cbc63; */
+}
+.twitter
+{
+    color: #242424;
+}
+.whatsapp
+{
+    color: #2cbc63;
+}
+.insta
+{
+    color: orangered;
+}
+.share
+{
+    color: #4b53bc;
+}

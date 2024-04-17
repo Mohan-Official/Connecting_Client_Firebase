@@ -1,0 +1,53 @@
+#wish-card
+{
+    margin-top: 2.5%;
+    height: 15rem;
+    width: 32.5rem;
+    position: relative;
+    /* background-color: aquamarine; */
+    display: flex;
+    border: 0.5px solid #242424;
+}
+.wish-card-one
+{
+    height: 100%;
+    width: 35%;
+    /* background-color: rebeccapurple; */
+}
+.wish-card-two
+{
+    height: 100%;
+    width: 65%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wish-card-one img
+{
+    height: 100%;
+    width: 100%;
+}
+.wish-card-two h1,.wish-card-two h3
+{
+    text-align: start;
+    padding-left: 1rem;
+}
+.wish-card-two p
+{
+    text-align: justify;
+    padding: 1rem;
+}
+#cart-icon
+{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#cart-icon:hover
+{
+    color: orangered;
+}

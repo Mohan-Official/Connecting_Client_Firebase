@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+}
+.navbar
+{
+  height: 5rem;
+  width: 100%;
+  line-height: 5rem;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #242424;
+  margin-bottom: 2.5%;
+}
+.navLinks
+{
+  float: left;
+  text-decoration: none;
+  color: #242424;
+  font-weight: 600;
+  padding: 0rem 2rem;
+}
+.active
+{
+  color: red;
+}
+
+/* /// Product Components css goes here.... */
+#Product-container
+{
+    height: auto;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+/* /// Wish List Component css goes here......... */
+#Wish-List-Container
+{
+    height: auto;
+    /* background-color: hotpink; */
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    justify-content: space-evenly;
+    row-gap: 1rem;
+    padding-bottom: 1rem;
+}
+/* /// Cart Component css goes here...... */
+#Cart-container
+{
+    height: auto;
+    /* background-color: aquamarine; */
+    display: grid;
+    /* grid-template-rows: 17.5rem; */
+    row-gap: 3rem;
+    justify-content: space-evenly;
+}
+/* //// Home Component css goes here..... */
+#Home-Banner-Container
+{
+    height: 140vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+.section-one
+{
+    height: 100%;
+    width: 45%;
+    /* background-color: aquamarine; */
+}
+.section-one img
+{
+    width: 100%;
+    height: 100%;
+}
+.section-two
+{
+    height: 100%;
+    width: 55%;
+    background-color: blue;
+}
+.sub-sec-one
+{
+    height: 50%;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+.sub-sec-two
+{
+    height: 50%;
+    width: 100%;
+    background-color: violet;
+    overflow: hidden;
+}
+.sub-sec-two img ,.sub-sec-three img ,.sub-sec-four img
+{
+    width: 100%;
+    height: 100%;
+}
+.sub-sec-three
+{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    overflow: hidden;
+}
+
+.sub-sec-three:hover
+{
+    transform: scale(1.2);
+}
+.sub-sec-four
+{
+    height: 100%;
+    width: 50%;
+    background-color: hotpink;
+    overflow: hidden;
+}

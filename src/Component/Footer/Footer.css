@@ -1,0 +1,145 @@
+.footerSection
+{
+    margin-top: 5%;
+    height: 25rem;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #9999;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: -2%;
+}
+.addressSection,.ouPrdt,.ourLinks,.subscription
+{
+    flex: 1;
+    /* background-color: aqua; */
+    text-align: start;
+    display: flex;
+    /* margin-left: 2%; */
+    flex-direction: column;
+    justify-content: center;
+}
+.addressSection h1
+{
+    padding-left: 5%;
+    font-size: 2rem;
+}
+.addressSection p,.addressSection a
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0%;
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+.addressSection a
+{
+    text-decoration: underline;
+}
+.ouPrdt
+{
+    flex: 0.6;
+    /* background-color: hotpink; */
+}
+.ouPrdt h4,.ourLinks h4
+{
+    padding-left: 15%;
+    font-size: 1.2rem;
+}
+.ouPrdt ul,.ourLinks ul
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+.ouPrdt .NavLink, .ourLinks .NavLink
+{
+    text-decoration: none;
+    margin-top: 5%;
+    color: black;
+    opacity: 0.8;
+}
+.ourLinks
+{
+    flex: 0.6;
+    /* background-color: lightcoral; */
+}
+.subscription
+{
+    flex: 1;
+    /* background-color: turquoise; */
+    overflow: hidden;
+}
+.subscription h4
+{
+    padding-left: 5%;
+    font-size: 1.2rem;
+}
+.subscription label
+{
+    padding-left: 5%;
+}
+.emailSection
+{
+    height: 15%;
+    width: 100%;
+    margin-left: 5%;
+    /* margin-top: 2%; */
+    /* background-color: darkcyan; */
+}
+.emailSection input
+{
+    height: 60%;
+    margin-top: 4%;
+    width: 65%;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid #9999;
+    padding-left: 2%;
+    color: #666666;
+    /* opacity: 0.8; */
+}
+.emailSection input::placeholder
+{
+    padding-left: 3%;
+}
+.emailSection button
+{
+    margin-left: 2%;
+    height: 70%;
+    width: 25%;
+    border: none;
+    border-bottom: 2px solid #9999;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.emailSection button:hover
+{
+    opacity: 0.8;
+    color: orangered;
+}
+.iconSection
+{
+    height: 3rem;
+    width: 30%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconSection a
+{
+    color: #888888;
+    transition: 0.3s ease-in-out;
+}
+.iconSection a:hover
+{
+    color: orangered;
+    opacity: 0.8;
+    transform: scale(1.2);
+}
