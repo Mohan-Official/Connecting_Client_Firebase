@@ -33,7 +33,6 @@ function App() {
         <Route path='/login' element = {<Login />} />
         <Route path='/register' element = {<Register />} />
         <Route path='/product-feedback' element = {<ProductFeedback />} />
-
       </Routes>
       <Footer />
     </>

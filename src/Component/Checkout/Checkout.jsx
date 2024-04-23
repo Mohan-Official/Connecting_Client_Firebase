@@ -63,7 +63,7 @@ export default function Checkout() {
                 key_secret: "I2ADd7h2tTPjAf8Fyipmnu99",
                 amount: amount * 100,
                 currency: "INR",
-                name: "RIA MART",
+                name: "AVM MART",
                 description: "Giving good product gives us Happiness!!",
                 handler: function (response) {
                     // alert(response.razorpay_payment_id);
