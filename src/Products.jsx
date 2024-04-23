@@ -9,7 +9,7 @@ export default function Products()
         {
             ProductData.map((product,index)=>
             (
-                <Card key={index+1} id={index+1} image={product['Product-Image']} name={product['Product-Name']} description={product['Product-Description']} price={product['Product-Price']} />
+                <Card key={index+1} id={product['Product-Id']} image={product['Product-Image']} name={product['Product-Name']} description={product['Product-Description']} price={product['Product-Price']} />
             ))
         }
     </main>    

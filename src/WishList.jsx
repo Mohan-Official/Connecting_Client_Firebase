@@ -1,20 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import WishCard from './Component/WishCard/WishCard';
 
-export default function WishList() {
+export default function WishList() 
+{
   const [isLoading, setLoading] = useState(true);
   const [addedWishList, setWishList] = useState([]);
-
-  useEffect(() => {
+  useEffect(() => 
+  {
     fetch('https://shop-list-19c4c-default-rtdb.firebaseio.com/Wish-List.json')
       .then((response) => response.json())
       .then((data) => {
-        const wishList = Object.keys(data).map((key) => ({
-          id: key,
-          ...data[key],
-        }));
+        if (data) {
+          const wishList = Object.keys(data).map((key) => ({
+            id: key,
+            ...data[key],
+          }));
+          setWishList(wishList);
+        } else {
+          console.log('No favorites present.');
+        }
         setLoading(false);
-        setWishList(wishList);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+        setLoading(false);
       });
   }, []);
 
@@ -30,15 +39,20 @@ export default function WishList() {
 
   return (
     <main id='Wish-List-Container'>
-      {addedWishList.map((product, index) => (
-        <WishCard
-          key={index}
-          image={product['Product Address']}
-          name={product['Product Name']}
-          description={product['Product Description']}
-          price={product['Product Price']}
-        />
-      ))}
+      {addedWishList.length === 0 ? (
+        <h3>No favorites present.</h3>
+      ) : (
+        addedWishList.map((product, index) => (
+          <WishCard
+            key={index}
+            id={product["Item-id"]}
+            image={product['Product Address']}
+            name={product['Product Name']}
+            description={product['Product Description']}
+            price={product['Product Price']}
+          />
+        ))
+      )}
     </main>
   );
 }

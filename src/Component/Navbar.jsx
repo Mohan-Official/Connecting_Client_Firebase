@@ -10,6 +10,7 @@ export default function Navbar() {
           <NavLink to="/wishlist"  className="navLinks">Wish List</NavLink>
           <NavLink to="/cart"  className="navLinks">Cart</NavLink>
           <NavLink to="/contacts" className="navLinks">Contact</NavLink>
+          <NavLink to="/order-summary" className="navLinks">My Orders</NavLink>
         </nav>
     </>
   )

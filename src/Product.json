@@ -1,5 +1,6 @@
 [
     {
+        "Product-Id" : "1",
         "Product-Image" : "https://images.unsplash.com/photo-1540932239986-30128078f3c5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "Product-Name" : "Hang Light",
         "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
@@ -7,39 +8,60 @@
     
     },
     {
+        "Product-Id" : "2",
         "Product-Image" : "https://plus.unsplash.com/premium_photo-1670950411934-e21abf39191e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
         "Product-Name" : "Wall Light",
-        "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
-        "Product-Price" : "$35.04"
+        "Product-Description" : "Illuminate your space with style using our elegant and practical wall lights.",
+        "Product-Price" : "$45.04"
     },
     {
+        "Product-Id" : "3",
         "Product-Image" : "https://images.unsplash.com/photo-1503602642458-232111445657?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
         "Product-Name" : "Chair Light",
-        "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
-        "Product-Price" : "$35.04"
+        "Product-Description" : "Enhance your seating area with the perfect amount of warm and inviting light from our innovative chair light.",
+        "Product-Price" : "$15"
     },
     {
+        "Product-Id" : "4",
         "Product-Image" : "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
         "Product-Name" : "Candle Light",
-        "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
-        "Product-Price" : "$35.04"
+        "Product-Description" : "Create a cozy and intimate atmosphere with the gentle flicker of our elegant candle light.",
+        "Product-Price" : "$27.2"
     },
     {
-        "Product-Image" : "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Product-Id" : "5",
+        "Product-Image" : "https://wallpapercave.com/wp/wp9625953.jpg",
         "Product-Name" : "Tent Light",
-        "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
-        "Product-Price" : "$35.04"
+        "Product-Description" : "Light up your outdoor adventures with our reliable and portable tent light, designed for maximum convenience and safety.",
+        "Product-Price" : "$206.89"
     },
     {
-        "Product-Image" : "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Product-Id" : "6",
+        "Product-Image" : "https://wallpapercave.com/wp/wp9625971.jpg",
         "Product-Name" : "Laser Light",
-        "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
-        "Product-Price" : "$35.04"
+        "Product-Description" : "Transform any space with our mesmerizing laser light, perfect for adding a touch of magic to your events and gatherings.",
+        "Product-Price" : "$115.00"
     },
     {
-        "Product-Image" : "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Product-Id" : "7",
+        "Product-Image" : "https://wallpapercave.com/wp/wp9626014.jpg",
         "Product-Name" : "Moon Light",
-        "Product-Description" : "Hanging lights can add a stylish and elegant touch to any room, creating a warm and inviting atmosphere. They come in a variety of designs and sizes, making it easy to find the perfect fit for your space.",
-        "Product-Price" : "$35.04"
+        "Product-Description" : "Bring the enchanting beauty of the moon into your home with our captivating and soothing moon light, perfect for creating a tranquil atmosphere.",
+        "Product-Price" : "$892.56"
+    },
+    {
+        "Product-Id" : "8",
+        "Product-Image" : "https://www.at-home.co.in/cdn/shop/products/BellaSwingchairLS.jpg?v=1669287788",
+        "Product-Name" : "MM Elite Swing",
+        "Product-Description" : "A swing chair is a suspended seat that swings back and forth, providing a relaxing and enjoyable outdoor seating option with love.",
+        "Product-Price" : "$92.56"
+    },
+    {
+        "Product-Id" : "9",
+        "Product-Image" : "https://m.media-amazon.com/images/I/61Q1hvMM7BL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+        "Product-Name" : "Tea Table",
+        "Product-Description" : "A tea table is a small, low table designed for use in serving tea and snacks, often placed in living rooms or sitting areas for convenience.",
+        "Product-Price" : "$12.56"
     }
+    
 ]

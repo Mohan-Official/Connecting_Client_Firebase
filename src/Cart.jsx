@@ -4,6 +4,7 @@ import CartCard from './Component/CartCard/CartCard';
 export default function Cart() {
     const [isLoading, setLoading] = useState(true);
   const [addedWishList, setWishList] = useState([]);
+  const [isClicked, setIsClicked] = useState(false);
 
   useEffect(() => {
     fetch('https://shop-list-19c4c-default-rtdb.firebaseio.com/cart-items.json')
@@ -19,7 +20,6 @@ export default function Cart() {
   }, []);
 
   console.log(addedWishList);
-
   if (isLoading) {
     return (
       <section>
@@ -33,6 +33,7 @@ export default function Cart() {
       {addedWishList.map((product, index) => (
         <CartCard
           key={index}
+          id ={product['Item-id']}
           image={product['Product Address']}
           name={product['Product Name']}
           description={product['Product Description']}

@@ -1,0 +1,119 @@
+.feedbackFormSection
+{
+  height: 22rem;
+  width: 67.5%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  border: 1px solid #efefef;
+  display: flex;
+  overflow: hidden;
+  /* background-color: violet; */
+}
+.secOneForm
+{
+  height: 100%;
+  width: 27%;
+  /* background-color: #47ae74; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+.secOneForm label
+{
+  margin-top: 14%;
+  margin-right: 5%;
+}
+.secTwoField
+{
+  height: 100%;
+  width: 73%;
+  padding-top: 2.5%;
+  /* background-color: #f39d72; */
+}
+.secTwoField form 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#dropBox,#email
+{
+  height: 2.5rem;
+  width: 55%;
+  outline: 0;
+  border: 1px solid ;
+  margin-left: 5%;
+  border: 1px solid #bfbfbf;
+}
+#email
+{
+  width: 53%;
+  padding-left: 2%;
+  padding-right: 0%;
+  margin-top: 2.5%;
+}
+#fileSection
+{
+  height: 2.5rem;
+  width: 75%;
+  margin-left: 5%;
+  /* background-color: #47ae74; */
+  display: flex;
+  margin-top: 2.5%;
+}
+.fileTextBox
+{
+  height: 90%;
+  width: 47%;
+  outline: 0;
+  border: 1px solid #bfbfbf;
+}
+.fileObjectBox
+{
+  height: 100%;
+  width: 25%;
+  color: white;
+  background-color: #7a7a7a;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+.fileObjectBox:hover
+{
+  background-color: #434a54;
+}
+#fileSection label
+{
+  line-height: 2.5rem;
+  margin-left: 7.5%;
+}
+#messageArea
+{
+  resize: vertical;
+  height: 4rem;
+  width: 88%;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  outline: 0;
+  padding-top: 2%;
+  padding-left: 2%;
+  border: 1px solid #bfbfbf;
+}
+#submit
+{
+  height: 2.5rem;
+  width: 15%;
+  margin-left: 80%;
+  margin-top: 5%;
+  background-color: #222222;
+  color: white;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+#submit:hover
+{
+  background-color: orangered;
+  opacity: 0.7;
+}

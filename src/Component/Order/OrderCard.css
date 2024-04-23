@@ -1,0 +1,83 @@
+#order-card-container
+{
+    height: 25rem;
+    width: 25rem;
+    /* background-color: cadetblue; */
+    border: 2px solid #242424;
+    position: relative;
+    overflow: hidden;
+}
+#img-sec
+{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#desc-sec
+{
+    height: 35%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img-sec img
+{
+    height: 90%;
+    width: 50%;
+}
+#desc-sec h1
+{
+    font-size: 1.5rem;
+    padding-top: 2%;
+}
+#desc-sec h2
+{
+    font-size: 1rem;
+}
+#continue-shopping
+{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 5%;
+    outline: 0;
+    border: 2px solid #242424;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+#continue-shopping:hover
+{
+    color: white;
+    background-color: #242424;
+}
+#corner-card
+{
+    height: 10rem;
+    width: 12rem;
+    background-color: #200E3A;
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    /* top: 0%;
+    right: 0%; */
+    transform: rotate(40deg);
+}
+#thumps-up
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+    transform: rotate(-40deg);
+    bottom: 10%;
+    left: 40%;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#thumps-up:hover
+{
+    color: #74E291;
+}

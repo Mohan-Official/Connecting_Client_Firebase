@@ -1,0 +1,73 @@
+#register-form
+{
+    height: auto;
+    width: 45%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid #242424;
+    position: relative;
+    margin-top: 2.5%;
+}
+#register-form *
+{
+    margin-top: 1.5%;
+    /* padding: 1rem; */
+}
+#field-span
+{
+    height: 6rem;
+    width: 75%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#username-field,#email-field,#password-field
+{
+    height: 3.2rem;
+    width: 95%;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #242424;
+    font-size: 1rem;
+}
+#email-field
+{
+    margin-top: -2%;
+}
+#password-field
+{
+    margin-top: -6%;
+}
+.user-label
+{
+    color: #242424;
+    text-align: start;
+}
+.register-btn
+{
+    height: 3rem;
+    width: 8rem;
+    margin-bottom: 2.5%;
+    cursor: pointer;
+    background-color: #242424;
+    color: whitesmoke;
+    outline: 0;
+    border: none;
+    font-weight: bolder;
+}
+#link-user
+{
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+.second-field-span
+{
+    margin-top: -5%;
+}
